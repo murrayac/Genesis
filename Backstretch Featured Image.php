@@ -1,3 +1,5 @@
+<?php
+
 //* Enqueue Backstretch script
 add_action( 'wp_enqueue_scripts', 'enqueue_backstretch' );
 function enqueue_backstretch() {
@@ -19,3 +21,5 @@ function featured_post_image() {
 	the_post_thumbnail('featured-image', array( 'class'	=> "featured-image"));
 
 }
+
+?>
